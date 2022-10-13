@@ -1,8 +1,10 @@
 name: Post welcome comment
+
 on:
+  workflow_dispatch:
   pull_request:
     types: [opened]
-    
+
 jobs:
   build:
     name: Post welcome comment
